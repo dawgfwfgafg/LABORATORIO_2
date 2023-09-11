@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formato de texto con CSS</title>
+    <link href="css/estilos.css" rel="stylesheet"/>
+</head>
+<body>
+    <h1>Formato de texto con CSS</h1>
+    <div class="caja">
+        <p class="texto">
+            Curso de universidad CSS donde aprenderas a crear aplicaciones web
+            con diseños increibles en el menor tiempo posible.
+        </p>
+        <p class="texto">
+            Dolor dolore mollit, dolor sit occaecat cupiditate ad aliquid fugit aut occaecati quia. Ita, culpa, veniam
+            qui sunt in culpa qui autem in culpa est et aliquid animæ eveniet. Obscura officia tempor cum deserunt loren sit amet, mollit eu
+            et reprehenderit dolor. Indulgentiae sunt inquisitionis per laborem, seu veniae inquisitionem, cupiditatem victoriae,
+            inquisitionem victoriae, vel cupiditatem vituperandi. De nostrud loren etusnod quis auctor proident qui ipsum voluptate orum et genitus sit. 
+            Mutatio aliqua sit in effectibus operariorum. Labore nisi qui velit veniam quis velit dolore do.
+        </p>
+    </div>
+</body>
+</html>

@@ -1,0 +1,239 @@
+h1{
+    color:aqua
+}
+
+#titulo{
+    color: crimson;
+    text-align: center;
+}
+
+#titulo{ 
+    color: crimson; 
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
+.texto_grande{ 
+    font-size: 20px;
+}
+
+*{
+    background-color: ghostwhite; 
+    color: cornflowerblue;
+    }
+    #titulo{ 
+        color: crimson; 
+        text-align: center;
+    }
+    .centrar{ 
+        text-align: center;
+    }
+    .texto_grande{ 
+        font-size: 20px;
+    }
+
+    h1,h2,p,div{
+        color: crimson;
+        text-align: center;
+    }
+
+    hl{
+        text-align: center;
+    }
+    .solido{
+        border: solid red;
+        border-width: 5px;
+        border-radius: 20px;
+    }
+    .redondeado{
+        border: 5px solid blueviolet;
+        border-radius: 20px 0px 10px 0px;
+    }
+
+h1{
+    text-align: center;
+    color: #e63946;
+}
+div{
+    padding: 10px;
+    border: 15px solid #457b9d;
+    margin: 20px;
+}
+
+h1{
+    text-align: center; 
+    color: #e63946;
+} 
+.caja{
+    padding: 10px;
+    color: white;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    margin: 5px auto; 
+    font-size: 10px;
+    float: left;
+}
+.rojo{
+    background-color: crimson;
+}
+.rosa{
+    background-color: deeppink;
+}
+.rgb{
+    background-color: rgb(131,56,236);
+} 
+.rgba{
+    background-color: rgba(131, 56, 236, 5);
+} 
+.hexadecimal{
+    background-color: #0091ad;
+} 
+.hexa_transparencia{
+     background-color: #0090ad88;
+} 
+.hsl{
+    background-color: hsl(195, 100%, 50%);
+}
+.hsla{
+    background-color: rgba(0, 191, 255, 0.5);
+}
+
+h1{
+    color: #ef476f;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    letter-spacing: 3px;
+    word-spacing: 10px; 
+    text-decoration: overline underline;
+}
+.caja{
+    padding: 15px;
+    margin: auto;
+    width: 70%;
+    background-color: #219ebc;
+    border-radius: 5px;
+    color:white;
+}
+.texto{
+    text-align: justify;
+    /*direction: rtl;*/
+    text-indent: 30px;
+    line-height: 1.5;
+    whit-space: normal;
+    text-shadow: 1px 1px 2px #ced4da;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Sofia|RobotoSeffect=shadow-multipleSdisplay=swap");
+
+h1{
+    color: #ef476f;    
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px #ced4da;
+    font-family: "Sofia", cursive;
+}    
+.caja{    
+    padding: 5px;
+    width: 40%;
+    height: 80px; 
+    border-radius: 5px;
+    color: white; 
+    text-align: center;
+    margin: 10px; 
+    font-size: 20px;
+    float: left;
+}    
+.caja.serif{
+    background-color: #5a189a
+}    
+.fuente_roboto{
+    /*
+    font-family: "Roboto", sans-serif;
+    font-style: normal; 
+    font-weight: normal;
+    font-variant: small-caps;
+    font-size: 20px;
+    */
+    /*font: font-style font-variant font weight *font-size/line-heigth *font-family;*/
+    font: italic small-caps bolder 20px roboto, sans-serif;
+}
+.fuente_georgia{
+font-family: Georgia, "Times New Roman", Times, serif;
+font-style: italic;
+font-weight: bold; 
+font-variant: portal;
+font-size: 1.25em; /*20px/16=2.5em, 16px/16= Ien*/
+}
+.caja.sans-serif{
+    background-color: #00b4d8;
+}
+.fuente arlal{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    Font-size: 2vw;/*view width (viewport) lvw=1%*/
+}
+.fuente arial{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 2vw;/*view width (viewport) lvw= 1%*/
+}
+.caja.monospace{
+    background-color: #f15bb5;
+} 
+fuente_courter{
+    font-family: "Courter New", Courter, monospace;
+} 
+.caja.cursive{
+    background-color: #ff8500;
+}
+.fuente_lucida{
+    font-family: "Lucida Handwriting", cursive;
+}
+
+hl{
+    text-align: center;
+    color: crimson; 
+}
+div{
+    padding: 15px;
+    margin: auto;
+    max-width: 400px;
+}
+.icono_azul{
+    font-size: 2.5em;
+    color: cornflowerblue;
+    vertical-align: bottom;
+}
+.icono_rojo{
+    font-size: 3em;
+    color: crimson;
+}
+
+h1, div, p{
+    border: 3px solid blueviolet;
+    text-align: center;
+    color: cornflowerblue;
+    padding: 10px; 
+    display: block;
+}
+h1{
+    display: none;
+}
+p{
+    visibility: hidden;
+}
+span{
+    display: inline;
+    border: 1px solid blue;
+}
+a{
+    display: block;
+}
+li{
+    display: inline;
+}
